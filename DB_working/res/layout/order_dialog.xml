@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="310dp"
+    
+     >
+     	
+    	<TextView 
+    	    android:id="@+id/order_info"
+    		android:layout_width="fill_parent"
+    		android:layout_height="250dp"
+    		android:textSize="20dp"    
+    		android:textColor="@android:color/black"
+    	    />
+    	<TextView 
+    	    android:id="@+id/total"
+    		android:layout_width="fill_parent"
+    		android:layout_height="60dp"
+    		android:textSize="20dp"	   
+    		android:textColor="@android:color/black"
+    	    />
+    
+    </LinearLayout>
+    
+   	<LinearLayout 
+   	     android:layout_width="fill_parent"
+	    android:layout_height="60dp"
+	    android:gravity="center"
+	    android:orientation="horizontal"
+   	    >
+   		<Spinner
+        	android:id="@+id/menu_spinner"
+	        android:layout_height="50dp" 
+	        android:layout_width="150dp" 
+	        />
+   		<Button
+   		    android:id="@+id/add_menu"
+	        android:layout_width="40dp"
+	        android:layout_marginLeft="10dp"
+	        android:layout_height="wrap_content" 
+	        android:text="+"
+	        android:textSize="20dp"
+   		    />
+   		<Button
+   		    android:id="@+id/delete_menu"
+	        android:layout_width="40dp"
+	        android:layout_marginLeft="10dp"
+	        android:layout_height="wrap_content" 
+	        android:text="-"
+	        android:textSize="20dp"
+   		    />
+   		
+   </LinearLayout>
+</LinearLayout>
